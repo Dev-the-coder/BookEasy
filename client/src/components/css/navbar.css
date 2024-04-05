@@ -1,0 +1,48 @@
+/* styles.css */
+
+.navbar.navbar-custom {
+    background-color: #ffffff; /* Navbar background color */
+    padding: 1rem 2rem; /* Navbar padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Brand text size */
+    color: #333333; /* Brand text color */
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border: none; /* Remove border from toggler button */
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    color: #000000; /* Toggler icon color */
+  }
+  
+  .navbar-custom .navbar-nav {
+    margin-left: auto; /* Move nav items to the right */
+  }
+  
+  .navbar-custom .nav-item {
+    margin-right: 1rem; /* Margin between nav items */
+  }
+  
+  .navbar-custom .nav-link {
+    color: #333333 !important; /* Nav link text color */
+    font-weight: 500; /* Nav link font weight */
+  }
+  
+  .navbar-custom .dropdown-toggle {
+    background-color: transparent; /* Background color of dropdown toggle */
+    color: #333333 !important; /* Dropdown toggle text color */
+  }
+  
+  .navbar-custom .dropdown-item {
+    color: #333333 !important; /* Dropdown item text color */
+  }
+  
+  .navbar-custom .dropdown-item:hover {
+    background-color: #f8f9fa; /* Background color on hover */
+    color: #333333 !important; /* Text color on hover */
+  }
+  

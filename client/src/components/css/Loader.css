@@ -1,0 +1,52 @@
+/* Loader.css */
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .sweet-loading {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .sweet-loading div {
+    transform-origin: 40px 40px;
+    animation: lds-pacman 1s infinite;
+  }
+  
+  @keyframes lds-pacman {
+    0% {
+      background: #3498db;
+    }
+    50% {
+      background: transparent;
+    }
+    100% {
+      background: #3498db;
+    }
+  }
+  
+  .sweet-loading div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+  }
+  
+  .sweet-loading div:nth-child(1) {
+    animation-delay: -0.32s;
+  }
+  
+  .sweet-loading div:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+  

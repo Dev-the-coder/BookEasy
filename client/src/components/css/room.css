@@ -1,0 +1,72 @@
+/* styles.css */
+
+.room-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .room-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .room-details h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .room-details p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .room-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .room-actions button {
+    margin-left: 10px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .room-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-body p {
+    font-size: 16px;
+  }
+  
+  .bigimg {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .smallimg {
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
